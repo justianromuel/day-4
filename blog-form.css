@@ -85,7 +85,6 @@ span {
     margin-top: 5px;
     margin-bottom: 20px;
     background: white;
-    border: 1px solid rgb(0, 0, 0, 0);
     border-radius: 5px;
     box-shadow: 0 5px 10px rgb(128, 128, 128, .2);
     cursor: pointer;
@@ -96,7 +95,8 @@ label p {
     padding: 10px;
     font-weight: 400;
     font-size: 18px;
-    background: grey;
+    color: #BEB9B9;
+    background: #E4E4E4;
     border-radius: 5px;
 }
 
@@ -139,7 +139,7 @@ button {
 }
 
 .card-blog1 {
-    width: 280px;
+    width: 380px;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
@@ -152,4 +152,40 @@ button {
     width: 100%;
     border-radius: 10px;
     padding-right: 0;
+}
+
+.card-blog-content a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card-blog-content h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.card-blog-content p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding-right: 50px;
+}
+
+div .icon {
+    display: flex;
+    width: 50%;
+}
+
+.card-blog1 .icon i {
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.button-blog-card button {
+    width: 49%;
+    border-radius: 5px;
+    padding: 5px 50px;
+    background-color: black;
+    color: white;
+    border: none;
 }
